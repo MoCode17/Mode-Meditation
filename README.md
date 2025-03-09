@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
+# Meditation App 🌿 cross-platform
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A **React Native** and **Expo**-based meditation app that helps users relax and focus. This project was built as part of my journey in app development, incorporating **dynamic React screens, audio playback, a timer, and parameter-based image rendering**.
 
-## Get started
 
-1. Install dependencies
+## 📖 Based On
+This project was inspired by [Steven Garcia's Simple Meditation App](https://github.com/stevenGarciaDev/simple-meditation-app-expo-react-native), with enhancements and personal modifications.
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+## 📌 Features
 
-   ```bash
-    npx expo start
-   ```
+Dynamic React Screens: Seamless navigation between meditation sessions and settings.
 
-In the output, you'll find options to open the app in a
+Audio Playback: Play relaxing meditation sounds.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Timer Functionality: Set custom meditation durations.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+URL Parameter Parsing: Display unique images dynamically.
 
-## Get a fresh project
+State Management: Efficient use of state hooks for a smooth user experience.
 
-When you're ready, run:
+Getting Started
 
-```bash
-npm run reset-project
-```
+Prerequisites
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Ensure you have the following installed:
 
-## Learn more
+Node.js
 
-To learn more about developing your project with Expo, look at the following resources:
+Expo CLI
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Git
 
-## Join the community
+Installation
 
-Join our community of developers creating universal apps.
+Clone the repository:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/YOUR_GITHUB_USERNAME/meditation-app.git
+cd meditation-app
+
+Install dependencies:
+
+npm install
+
+Start the Expo development server:
+
+npx expo start
+
+Install Expo Go app to see a demo. Scan the qr code provided from the terminal, scan using your camera on iOS or within expo app for Android. Run the app on your device.
+
+## Usage
+
+Select a meditation session.
+
+Choose a background image each with deep meditation audio playing.
+
+Set a timer for the session.
+
+Press Start to begin and enjoy the guided meditation!
+
+Affirmations (Tab)
+
+Discover affirmations from a wide variety of topics
+
+## 🛠️ Technologies Used
+React Native
+Expo
+TypeScript (if applicable)
+React Navigation
+Expo AV (for audio playback)
+📸 Screenshots
+(Add some screenshots of your app here)
+
+Original project by Steven Garcia.
+Link: https://github.com/stevenGarciaDev/simple-meditation-app-expo-react-native
+
+Future Improvements
+
+Add more meditation sound options.
+
+Implement user authentication.
+
+Store meditation history and statistics. Habit tracking
+
+Feel free to contribute, report issues, or suggest improvements! 🚀
+
